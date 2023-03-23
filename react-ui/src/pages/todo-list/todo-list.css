@@ -1,0 +1,101 @@
+.task-item, .add-task {
+    margin: 5px auto;
+    border: 1px solid #aaa;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.delete-button {
+    color: #fff;
+    background-color: red;
+    border-radius: 4px;
+    padding: 5px 15px;
+}
+
+.low-priority,
+.medium-priority,
+.high-priority {
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+.low-priority {
+    color: #55A557;
+}
+
+.medium-priority {
+    color: #EA7D24;
+}
+
+.high-priority {
+    color: #ff0000;
+}
+
+.todo-status,
+.in-progress-status,
+.done-status {
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.move-to-in-progress {
+    color: #0049b0;
+}
+
+.todo-status {
+    background-color: #fff;
+}
+
+.in-progress-status {
+    color: #0049b0;
+    background-color: #deebff;
+}
+
+.done-status {
+    color: #064;
+    background-color: #e3fcef;
+}
+
+.task-status,
+.task-priority {
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.task-id {
+    font-weight: bolder;
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.font-weight-bolder {
+    font-weight: bolder;
+}
+
+input[type="text"],
+textarea,
+ion-select {
+    margin: 10px;
+    border-radius: 3px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+ion-select {
+    background-color: #fff;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    outline: 0;
+    border-color: #66afe9;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}

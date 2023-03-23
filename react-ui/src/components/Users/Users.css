@@ -1,0 +1,11 @@
+.font-weight-600 {
+    font-weight: 900;
+}
+
+.color-red {
+    color: #ff0000;
+}
+
+.user {
+    cursor: pointer;
+}
